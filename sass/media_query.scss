@@ -56,7 +56,7 @@ $tablet-width-landscape: 951px;
 }
 
 @mixin tablet-landscape-height {
-  @media screen and (orientation: landscape) and (min-width: #{$tablet-width-landscape}) and (max-height: 560px) {
+  @media screen and (orientation: landscape) and (min-width: #{$tablet-width-landscape}) and (max-height: 540px) {
     @content;
   }
 }

@@ -200,7 +200,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-size: contain;
   position: relative;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .header {
     background-size: 100% 100%;
     height: 70px;
@@ -229,7 +229,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   align-items: center;
   /* Background images */
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .header .navBtns {
     top: 10px;
   }
@@ -300,7 +300,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   transition: transform 0.5s ease-in;
   /* Show tooltip on hover */
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .header .navBtns button {
     width: 40px !important;
     height: 40px !important;
@@ -425,7 +425,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     padding-bottom: 20px;
   }
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body {
     display: flex;
     height: calc(100% - 90px);
@@ -498,7 +498,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   margin: 0 auto;
   height: 150px;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .wrap {
     height: 90px;
     padding: 5px 15px 0 10px;
@@ -527,7 +527,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   color: red;
   display: contents;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .wrap p {
     font-size: 20px;
   }
@@ -577,7 +577,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     font-size: 36px !important;
   }
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .wrap .text p.tabletSize {
     font-size: 28px !important;
   }
@@ -639,7 +639,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 100%;
   height: 100%;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw {
     height: calc(100% - 80px);
   }
@@ -661,7 +661,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap {
     width: calc(100% - 80px);
     top: calc(100% - 50px);
@@ -698,7 +698,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-position: center;
   z-index: 1111;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .saw-holding {
     background-size: 50px;
   }
@@ -725,7 +725,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   transform-origin: center;
   z-index: 1;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding {
     top: 13px;
   }
@@ -750,7 +750,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   align-items: flex-start;
   bottom: 85%;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding {
     width: 100px;
   }
@@ -772,7 +772,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   bottom: 100px;
   font-weight: bold;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding p {
     font-size: 30px;
     bottom: 80px;
@@ -887,7 +887,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     bottom: 120px;
   }
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .right-holding p {
     font-size: 30px;
     bottom: 90px;
@@ -923,7 +923,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   bottom: 100%;
   left: 100%;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .right-holding.active:after {
     left: 90%;
   }
@@ -1000,7 +1000,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side {
   width: 25%;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side {
     height: 100%;
   }
@@ -1043,7 +1043,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-size: contain;
   background-position: center;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container {
     background-size: 100% 100%;
   }
@@ -1089,7 +1089,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     height: 80px;
   }
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container::after {
     width: 45px;
     height: 55px;
@@ -1138,7 +1138,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 80px;
   height: auto;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn {
     height: 50px;
     width: 110px;
@@ -1154,7 +1154,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-1 {
   bottom: 10px;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-1 img {
     width: 60px;
   }
@@ -1175,7 +1175,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-2 img {
   width: 45px;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-2 img {
     width: 40px;
   }
@@ -1193,7 +1193,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-3 img {
   width: 40px;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-3 img {
     width: 30px;
   }
@@ -1211,7 +1211,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-4 img {
   width: 75px;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-4 img {
     width: 60px;
   }
@@ -1229,7 +1229,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-5 img {
   width: 55px;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-5 img {
     width: 45px;
   }
@@ -1247,7 +1247,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-6 img {
   width: 45px;
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-6 img {
     width: 45px;
   }
@@ -1294,7 +1294,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   animation: slowInFastOut 4s ease-in-out infinite;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 540px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap {
     width: 450px;
     height: 350px;
