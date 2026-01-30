@@ -11,9 +11,10 @@
     justify-content: center;
     gap: 10px;
 
-    @include tablet-landscape-height{
+    @include tablet-landscape-height {
       width: 100px;
-      img{
+
+      img {
         width: 100px;
       }
     }
@@ -41,7 +42,7 @@
         width: 130px;
         height: auto;
 
-        @include tablet-landscape-height{
+        @include tablet-landscape-height {
           width: 100px;
         }
 
@@ -62,7 +63,7 @@
     cursor: pointer;
     top: 2px;
 
-    @include tablet-landscape-height{
+    @include tablet-landscape-height {
       width: 40px;
       height: 40px;
     }
@@ -90,24 +91,44 @@
     &.fullScreen {
       background: url("../assets/images/nav-fullscreen-on.png") no-repeat;
       background-size: contain;
+
       // @include ipad-landscape{
       //   background-position: center;
       // }
-      @include tablet-landscape-height{
+      @include tablet-landscape-height {
         // background-position: center;
       }
+
+      &:hover::after {
+        @include mobile-landscape {
+          left: calc(100% - 24px);
+        }
+      }
+
       // background-position: center;
     }
 
     &.offScreen {
       background: url("../assets/images/nav-fullscreen-off.png") no-repeat;
       background-size: contain;
+
       // @include ipad-landscape{
       //   background-position: center;
       // }
-      @include tablet-landscape-height{
+      @include tablet-landscape-height {
         // background-position: center;
       }
+
+      &:hover::after {
+        @include ipad-landscape {
+          left: calc(100% - 28px);
+        }
+
+        @include mobile-landscape {
+          left: calc(100% - 28px);
+        }
+      }
+
       // background-position: center;
     }
 
@@ -144,6 +165,10 @@
 
     /* Show tooltip on hover */
     &:hover::after {
+      @include mobile-landscape {
+        left: calc(100% - 35px);
+      }
+
       opacity: 1;
     }
   }

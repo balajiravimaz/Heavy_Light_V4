@@ -1224,6 +1224,12 @@ footer {
                     width: 40px;
                     height: 40px;
                }
+
+               &:hover::after {
+                    @include mobile-landscape {
+                         left: calc(100% - 24px);
+                    }
+               }
           }
 
           &.offScreen {
@@ -1239,6 +1245,16 @@ footer {
                     width: 35px;
                     height: 35px;
                }
+
+               &:hover::after {
+                    @include ipad-landscape {
+                         left: calc(100% - 28px);
+                    }
+                    @include mobile-landscape {
+                         left: calc(100% - 28px);
+                    }
+               }
+
           }
 
           &::after {
@@ -1269,6 +1285,7 @@ footer {
                @include mobile-landscape {
                     font-size: 8px;
                     left: 20%;
+                    left: calc(100% - 20px);
                }
           }
 

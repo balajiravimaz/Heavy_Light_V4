@@ -641,12 +641,12 @@
 
 							.box {
 								width: 342px;
-								height: 390px;
+								height: 360px;
 								background: white;
 								border-radius: 20px;
 								background-image: url(../images/border.png);
 								background-position: center;
-								background-size: contain;
+								background-size: 100% 100%;
 								background-repeat: no-repeat;
 
 								@include tablet-landscape-height {
@@ -675,6 +675,7 @@
 							justify-content: space-evenly;
 							grid-template-columns: repeat(3, 1fr);
 							margin-left: 16px;
+							padding: 0 15px;
 
 							@include tablet-landscape-height {
 								margin-left: 5px;

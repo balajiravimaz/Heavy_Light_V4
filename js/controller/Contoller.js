@@ -368,10 +368,10 @@ Controller.prototype.checkPreLoaderHide = function () {
                         playClickThen();
                         onLaunchCourse();
                         // height
-                        var widthWindow = window.innerWidth;
-                        var heightWindow = window.innerHeight;
+                        // var widthWindow = window.innerWidth;
+                        // var heightWindow = window.innerHeight;
 
-                        alert("Width: " + widthWindow + "px\nHeight: " + heightWindow + "px");
+                        // alert("Width: " + widthWindow + "px\nHeight: " + heightWindow + "px");
                         // IOS code
                         if (!document.documentElement.requestFullscreen ||
                             (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)

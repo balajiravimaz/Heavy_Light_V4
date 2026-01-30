@@ -1507,6 +1507,11 @@ footer p {
     height: 40px;
   }
 }
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
+  #f_header_main .full-screen.fullScreen:hover::after {
+    left: calc(100% - 24px);
+  }
+}
 #f_header_main .full-screen.offScreen {
   background: url("../assets/images/nav-fullscreen-off.png") no-repeat;
   background-size: contain;
@@ -1516,6 +1521,16 @@ footer p {
   #f_header_main .full-screen.offScreen {
     width: 35px;
     height: 35px;
+  }
+}
+@media (orientation: landscape) and (min-width: 768px) {
+  #f_header_main .full-screen.offScreen:hover::after {
+    left: calc(100% - 28px);
+  }
+}
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
+  #f_header_main .full-screen.offScreen:hover::after {
+    left: calc(100% - 28px);
   }
 }
 #f_header_main .full-screen::after {
@@ -1547,6 +1562,7 @@ footer p {
   #f_header_main .full-screen::after {
     font-size: 8px;
     left: 20%;
+    left: calc(100% - 20px);
   }
 }
 #f_header_main .full-screen:hover::after {
@@ -1929,9 +1945,24 @@ footer p {
   background: url("../assets/images/nav-fullscreen-on.png") no-repeat;
   background-size: contain;
 }
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
+  #f_header .full-screen.fullScreen:hover::after {
+    left: calc(100% - 24px);
+  }
+}
 #f_header .full-screen.offScreen {
   background: url("../assets/images/nav-fullscreen-off.png") no-repeat;
   background-size: contain;
+}
+@media (orientation: landscape) and (min-width: 768px) {
+  #f_header .full-screen.offScreen:hover::after {
+    left: calc(100% - 28px);
+  }
+}
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
+  #f_header .full-screen.offScreen:hover::after {
+    left: calc(100% - 28px);
+  }
 }
 #f_header .full-screen::after {
   content: attr(data-tooltip);
@@ -1966,6 +1997,11 @@ footer p {
 }
 #f_header .full-screen:hover::after {
   opacity: 1;
+}
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
+  #f_header .full-screen:hover::after {
+    left: calc(100% - 35px);
+  }
 }
 #f_header #f_courseTitle {
   position: relative;
