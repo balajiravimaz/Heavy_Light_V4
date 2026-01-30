@@ -728,7 +728,7 @@
 
 											@include tablet-landscape-height {
 												width: calc(100% - 80px);
-												top: calc(100% - 50px);
+												top: calc(100% - 80px);
 											}
 
 											@include tablet-landscape {
@@ -776,7 +776,7 @@
 
 
 												@include tablet-landscape-height {
-													background-size: 50px;
+													background-size: 60px;
 												}
 
 												@include mobile-landscape {
@@ -802,7 +802,7 @@
 												z-index: 1;
 
 												@include tablet-landscape-height {
-													top: 13px;
+													top: 0px;
 												}
 
 												@include mobile-landscape {
@@ -1178,6 +1178,7 @@
 											@include tablet-landscape {
 												width: 60px;
 												height: 80px;
+												left: 100px;
 											}
 
 											@include tablet-landscape-height {
